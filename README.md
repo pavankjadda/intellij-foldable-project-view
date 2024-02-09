@@ -1,8 +1,6 @@
 # Foldable Project View
 
-![Build](https://github.com/hsz/intellij-foldable-projectview/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/17288.svg)](https://plugins.jetbrains.com/plugin/17288)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/17288.svg)](https://plugins.jetbrains.com/plugin/17288)
+![Build](https://github.com/pavankjadda/intellij-foldable-projectview/workflows/Build/badge.svg)
 
 <!-- Plugin description -->
 
@@ -33,15 +31,8 @@ Available features:
 
 ## Installation
 
-- Using IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Foldable Project View"</kbd> >
-  <kbd>Install Plugin</kbd>
-  
-- Manually:
-
-  Download the [latest release](https://github.com/hsz/intellij-foldable-projectview/releases/latest) and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
+Download the [latest release](https://github.com/pavankjadda/intellij-foldable-projectview/releases/latest) and install it manually using
+<kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 
 ---
