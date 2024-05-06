@@ -1,7 +1,6 @@
 package com.pj.foldableprojectview.settings
 
 import com.intellij.openapi.components.*
-import com.intellij.openapi.project.Project
 import com.intellij.util.xmlb.annotations.OptionTag
 import com.pj.foldableprojectview.FoldableProjectViewConstants
 import java.io.File
@@ -31,6 +30,7 @@ class FoldableProjectSettings : FoldableProjectState, BaseState(), PersistentSta
     override var rules by list<Rule>()
 
     init {
+        println("FoldableProjectSettings init" + getGitIgnorePatterns().joinToString(" "))
         val tempRules = mutableListOf<Rule>()
         tempRules.add(Rule("Ignored Files", getGitIgnorePatterns().joinToString(" "), null, null))
         rules = tempRules
